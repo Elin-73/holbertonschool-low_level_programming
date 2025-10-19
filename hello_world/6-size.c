@@ -14,9 +14,14 @@ int main(void)
 	float myFloat;
 
 	printf("Size of a char: ");
+	printf("%zu\n", sizeof(myChar));
 	printf("Size of an int: ");
+	printf("%zu\n", sizeof(myInt));
 	printf("Size of a long int: ");
+	printf("%zu\n", sizeof(myLongInt));
 	printf("Size of a long long int: ");
+	printf("%zu\n", sizeof(myLongLongInt));
 	printf("Size of a float: ");
+	printf("%zu\n", sizeof(myFloat));
 	return (0);
 }
