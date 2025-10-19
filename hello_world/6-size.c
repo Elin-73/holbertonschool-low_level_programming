@@ -20,7 +20,7 @@ int main(void)
 	printf("Size of a long int: ");
 	printf("%zu\n", sizeof(myLongInt));
 	printf("Size of a long long int: ");
-	printf("%zu\n", sizeof(myLongLongInt));
+	printf("%zu\n", sizeof(myLongLontInt));
 	printf("Size of a float: ");
 	printf("%zu\n", sizeof(myFloat));
 	return (0);
