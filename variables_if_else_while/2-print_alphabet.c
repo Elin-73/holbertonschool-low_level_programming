@@ -10,8 +10,9 @@ int main(void)
 	int letter = 0;
 	while (letter != 25)
 	{
-		int currentLetter = 97 + leter;
+		int currentLetter = 97 + letter;
 		putchar(currentLetter);
+		letter = letter + 1;
 	}
 	putchar('\n');
 }
