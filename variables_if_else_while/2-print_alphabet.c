@@ -3,14 +3,16 @@
 /**
  * main - prints the alphabet
  *
- * Return: 
+ * Return:
  */
 int main(void)
 {
 	int letter = 0;
-	while (letter != 25)
+
+	while (letter != 26)
 	{
 		int currentLetter = 97 + letter;
+		
 		putchar(currentLetter);
 		letter = letter + 1;
 	}
