@@ -13,6 +13,7 @@ int main(void)
 	while (letter < 53)
 	{
 		putchar(alphabet[letter]);
+		letter = letter + 1;
 	}
 	putchar('\n');
 	return (0);
