@@ -12,15 +12,17 @@ int main(void)
 {
 	int n;
 	int lastDigit;
+	int ogLastDigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastDigit = n % 10;
+	ogLastDigit = lastDigit;
 	if (lastDigit < 0)
 	{
 		lastDigit = -lastDigit;
 	}
-	printf("Last digit of %d is %d and is ", n, lastDigit);
+	printf("Last digit of %d is %d and is ", n, ogLastDigit);
 	if (lastDigit > 5)
 	{
 		printf("greater than 5\n");
