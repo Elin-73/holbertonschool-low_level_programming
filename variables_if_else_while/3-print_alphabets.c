@@ -10,7 +10,7 @@ int main(void)
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$";
 	int letter = 0;
 
-	while (letter < 53)
+	while (letter < 54)
 	{
 		putchar(alphabet[letter]);
 		letter = letter + 1;
