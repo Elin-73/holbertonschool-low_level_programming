@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * _isupper - checks if the integer inserted is between a range
  *
  * Return: gives 1 if it's the range of uppercase letters,
