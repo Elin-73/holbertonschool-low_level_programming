@@ -8,16 +8,18 @@
  */
 void more_numbers(void)
 {
+	int j;
 	int i;
+	int array[] = {48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 48, 49, 50, 51, 52};
+	int zeros[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 49, 49, 49, 49, 49};
 
-	for (i = 48; i < 58; i++)
+	for (j = 0; j < 10; j++)
 	{
-		_putchar(i);
-	}
-	for (i = 48; i < 52; i++)
-        {
-                _putchar(49);
-		_putchar(i);
-        }
+		for (i = 0; i < 14; i++)
+		{
+			_putchar(zeros[i]);
+			_putchar(array[i]);
+		}
 	_putchar('\n');
+	}
 }
