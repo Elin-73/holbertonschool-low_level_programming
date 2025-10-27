@@ -2,19 +2,24 @@
 #include "main.h"
 
 /**
- * print_line - awaimwdaim
+ * print_diagonal - awaimwdaim
  *
  * Return: Always?
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	if (n > 0)
 	{
 		int i;
+		int j;
 
 		for (i = 0; i < n; i++)
 		{
-			_putchar(95);
+			for (j = 0; j < i; j++)
+			{
+				_putchar(32);
+			}
+			_putchar(92);
 		}
 	}
 	_putchar('\n');
