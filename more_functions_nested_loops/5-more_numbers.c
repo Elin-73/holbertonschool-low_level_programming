@@ -10,15 +10,13 @@ void more_numbers(void)
 {
 	int j;
 	int i;
-	int array[] = {48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 48, 49, 50, 51, 52};
-	int zeros[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 49, 49, 49, 49, 49};
+	char *str = "012345678901011121314";
 
 	for (j = 0; j < 10; j++)
 	{
-		for (i = 0; i < 15; i++)
+		while (*str)
 		{
-			_putchar(zeros[i]);
-			_putchar(array[i]);
+			putchar(*str++)
 		}
 	_putchar('\n');
 	}
