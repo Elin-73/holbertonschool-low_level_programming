@@ -12,21 +12,21 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		bool flag = true;
+		int flag = 0;
 
 		if (i % 3)
 		{
 			printf("Fizz");
-			flag = true;
+			flag = 1;
 		}
 		if (i % 5)
 		{
 			printf("Buzz");
-			flag = true;
+			flag = 1;
 		}
-		if (flag != true)
+		if (flag == 0)
 		{
-			printf("%d", i)
+			printf("%d", i);
 		}
 		putchar('\n');
 	}
