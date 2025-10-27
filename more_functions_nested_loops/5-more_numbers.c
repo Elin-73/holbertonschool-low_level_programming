@@ -16,7 +16,7 @@ void more_numbers(void)
 	{
 		while (*str)
 		{
-			putchar(*str++)
+			putchar(*str++);
 		}
 	_putchar('\n');
 	}
