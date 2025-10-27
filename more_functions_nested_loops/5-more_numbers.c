@@ -9,7 +9,6 @@
 void more_numbers(void)
 {
 	int j;
-	int i;
 	char *str = "012345678901011121314";
 
 	for (j = 0; j < 10; j++)
