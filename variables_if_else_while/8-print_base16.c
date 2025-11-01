@@ -18,7 +18,7 @@ int main(void)
 	}
 	letter = 0;
 
-	while (letter != 5)
+	while (letter != 6)
         {
                 int currentLetter = 97 + letter;
 
