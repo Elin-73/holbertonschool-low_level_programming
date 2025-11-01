@@ -32,9 +32,5 @@ int main(void)
 		}
 		putchar(32);
 	}
-	if (i != 99)
-	{
-		putchar('\n');
-	}
 	return (0);
 }
