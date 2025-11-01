@@ -19,12 +19,12 @@ int main(void)
 	letter = 0;
 
 	while (letter != 6)
-        {
-                int currentLetter = 97 + letter;
+	{
+		int currentLetter = 97 + letter;
 
-                putchar(currentLetter);
-                letter = letter + 1;
-        }
+		putchar(currentLetter);
+		letter = letter + 1;
+	}
 	putchar('\n');
 	return (0);
 }
