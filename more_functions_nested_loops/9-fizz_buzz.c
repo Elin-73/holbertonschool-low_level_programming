@@ -2,9 +2,11 @@
 #include "main.h"
 
 /**
- * print_diagonal - awaimwdaim
+ * main - prints numbers from 1 to 100, if it's
+ * divisable by 3 it prints fizz,
+ * if divisable by 5 print buzz.
  *
- * Return: Always?
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -30,6 +32,9 @@ int main(void)
 		}
 		putchar(32);
 	}
-	putchar('\n');
+	if (i != 99)
+	{
+		putchar('\n');
+	}
 	return (0);
 }

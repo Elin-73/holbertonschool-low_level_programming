@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * _putchar - prints 0-9.
+ * more_numbers - prints 0-14 10 times.
  *
- * Return: .
  */
 void more_numbers(void)
 {
