@@ -35,6 +35,6 @@ int main(void)
 			putchar(32);
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
