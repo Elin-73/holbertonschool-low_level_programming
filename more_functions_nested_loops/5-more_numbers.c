@@ -3,6 +3,8 @@
 
 /**
  * more_numbers - prints 0-14 10 times.
+ * @i: counter
+ * @*str: numbers
  *
  */
 void more_numbers(void)
