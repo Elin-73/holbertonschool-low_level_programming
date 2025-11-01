@@ -12,7 +12,7 @@ void more_numbers(void)
 
 	for (j = 0; j < 10; j++)
 	{
-		char *str = "012345678901011121314";
+		char *str = "01234567891011121314";
 
 		while (*str)
 		{
