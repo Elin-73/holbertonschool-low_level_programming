@@ -6,14 +6,11 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int _islower(int c)
 {
-	char *str = "_putchar";
-
-	while (*str)
+	if ((c >= 97) && (c <= 122))
 	{
-		_putchar(*str++);
+		return (1);
 	}
-	_putchar('\n');
 	return (0);
 }

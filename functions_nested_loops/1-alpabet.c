@@ -6,14 +6,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	char *str = "_putchar";
+	char *str = "abcdefghijklmnopqrstuvwxyz";
 
 	while (*str)
 	{
 		_putchar(*str++);
 	}
 	_putchar('\n');
-	return (0);
 }
