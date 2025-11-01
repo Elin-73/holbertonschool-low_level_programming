@@ -11,7 +11,7 @@ int main(void)
 
 	while (letter != 0)
 	{
-		int currentLetter = 97 + letter;
+		int currentLetter = 96 + letter;
 
 		putchar(currentLetter);
 		letter = letter - 1;
