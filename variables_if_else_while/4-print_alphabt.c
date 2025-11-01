@@ -13,7 +13,7 @@ int main(void)
 	{
 		int currentLetter = 97 + letter;
 
-		if ((currentLetter != 101) || (currentLetter != 114))
+		if ((currentLetter != 101) && (currentLetter != 114))
 		{
 			putchar(currentLetter);
 		}
