@@ -18,6 +18,9 @@ void more_numbers(void)
 		{
 			_putchar(*str++);
 		}
-	_putchar('\n');
+	if (j != 9)
+	{
+		_putchar('\n');
+	}
 	}
 }
