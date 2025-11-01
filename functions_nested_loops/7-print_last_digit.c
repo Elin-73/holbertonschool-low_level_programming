@@ -6,9 +6,24 @@
  *
  * Return: Always 0 (Success)
  */
-int print_last_digit(int c)
+void jack_bauer(void)
 {
-	c = c % 10;
+	int i;
+	int j;
 
-	return (c);
+	for (i = 0; i < 24; i++)
+	{
+		fHour = i % 10;
+		sHour = i / 10;
+		_putchar(fHour);
+		_putchar(sHour);
+		_putchar(58);
+		for (j = 0; j < 60; j++)
+		{
+			fSecond= j % 10;
+			sSecond= j / 10;
+			_putchar(fSecond);
+			_putchar(sSecond);
+		}
+	}
 }
