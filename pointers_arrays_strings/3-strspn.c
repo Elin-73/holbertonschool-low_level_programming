@@ -9,7 +9,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	char *p = s;
-	int fOccur = 1;
+	int fOccur = 0;
 
 	while (*p++)
 	{
@@ -23,11 +23,11 @@ unsigned int _strspn(char *s, char *accept)
 				flag = 1;
 			}
 		}
+		fOccur += 1;
 		if (flag != 1)
 		{
 			return (fOccur);
 		}
-		fOccur += 1;
 	}
 	return (fOccur);
 }
