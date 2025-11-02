@@ -29,5 +29,5 @@ unsigned int _strspn(char *s, char *accept)
 			return (fOccur);
 		}
 	}
-	return (fOccur);
+	return (0);
 }
