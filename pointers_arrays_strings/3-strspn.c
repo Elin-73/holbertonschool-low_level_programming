@@ -23,11 +23,12 @@ unsigned int _strspn(char *s, char *accept)
 				flag = 1;
 			}
 		}
-		fOccur += 1;
 		if (flag != 1)
 		{
 			return (fOccur);
 		}
+		fOccur += 1;
 	}
-	return (0);
+	fOccur = 0;
+	return fOccur;
 }
