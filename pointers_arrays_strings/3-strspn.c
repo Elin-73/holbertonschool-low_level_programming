@@ -33,5 +33,5 @@ unsigned int _strspn(char *s, char *accept)
 		fOccur += 1;
 		p++;
 	}
-	return fOccur;
+	return (fOccur);
 }
