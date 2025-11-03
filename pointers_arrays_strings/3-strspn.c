@@ -31,6 +31,7 @@ unsigned int _strspn(char *s, char *accept)
 			return (fOccur);
 		}
 		fOccur += 1;
+		p++;
 	}
 	return fOccur;
 }
