@@ -16,7 +16,7 @@ void _puts_recursion(char *s)
 	{
 		_puts_recursion(next);
 	}
-	else
+	else if (*next == '\0')
 	{
 		_putchar('\n');
 	}
